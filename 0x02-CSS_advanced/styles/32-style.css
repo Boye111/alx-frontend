@@ -425,7 +425,7 @@ html {
 	--header-logo-link-top: -1rem;
 	--header-logo-link-left: 0;
 
-	--transition-duration: .3s;
+	--transition-duration: 0.3s;
 	--transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
@@ -448,7 +448,7 @@ a:link {
 }
 
 a:visited {
-	font-style: Italic;
+	font-style: italic;
 }
 
 a:hover {
@@ -530,7 +530,7 @@ a:active {
 	padding: 10rem 40rem 2rem 0;
 }
 
-[data-section-theme=“dark”] {
+[data-section-theme="dark"] {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
 	background-color: var(--color-black);
@@ -584,7 +584,7 @@ a:active {
 	background-color: var(--color-white);
 	width: 0;
 	height: 0.2rem;
-	transition: var(–transition-duration) var(transition-cubic-bezier);
+	transition: var(-–transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -713,7 +713,7 @@ ul.row {
 	right: -0.1rem;
 	bottom: -0.1rem;
 	z-index: 1;
-	transition: var(–transition-duration) var(transition-cubic-bezier);
+	transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
